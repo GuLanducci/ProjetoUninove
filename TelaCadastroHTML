@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/System Employee.png" type="image/x-icon">
+    <title> SE | Registration </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>UNIBURGUER</h1>
+                <H2>SYSTEM EMPLOYEE 2022</H2>
+                <h3>Cadastre-se</h3>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="name"></label>
+                        <input type="name" name="name" id="iname" placeholder="Nome completo" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="ilogin"></label>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu E-mail" autocomplete="email"required>
+                    </div>
+                    <div class="campo"> 
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password"required>                    </div>
+                        <div class="campo">
+                            <label for="isenha"></label>
+                            <input type="password" name="senha" id="isenha" placeholder="Confirme sua senha" autocomplete="current-password"required>                    </div>
+                           
+                                <div class="campo">
+                                    <label for="number"></label>
+                                    <input type="tel" name="number" id="number" placeholder="Celular" >
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>       
+                        </div>
+                    </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
