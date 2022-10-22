@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/System Employee.png" type="image/x-icon">
+    <title>Uniburguer login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Uniburguer</h1>
+                <h2>Bem vindo Universitário</H2>
+                <h3>LOGIN</h3>
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <input type="email" name="login" id="ilogin" placeholder="Seu E-mail" autocomplete="email">
+                    </div>
+                    <div class="campo">
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password">                    </div>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html" class="botao">
+                            Esqueci a senha 
+                        </a>
+                
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
